@@ -38,7 +38,7 @@ class Game
   end
 
   def game_end
-    "Player #{@current_player.player_number} wins with a score of #{@current_player.lives}/3"
+    puts "Player #{@current_player.player_number} wins with a score of #{@current_player.lives}/3"
     puts "----- GAME OVER -----"
     puts "Good bye!"
   end
